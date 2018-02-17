@@ -97,11 +97,11 @@ function contador() {
 // Movimentos ./para depois 
 gyro.startTracking((o) => {
 
-    console.log("x - " + o.x);
-    console.log("y - " + o.y);
-    console.log("z - " + o.z);
-    console.log("alpha - " + o.alpha);
-    console.log("beta - " + o.beta);
-    console.log("gamma - " + o.gamma);
+    console.re.log("x - " + o.x);
+    console.re.log("y - " + o.y);
+    console.re.log("z - " + o.z);
+    console.re.log("alpha - " + o.alpha);
+    console.re.log("beta - " + o.beta);
+    console.re.log("gamma - " + o.gamma);
 
 });
