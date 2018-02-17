@@ -95,13 +95,13 @@ function contador() {
 } 
 
 // Movimentos ./para depois 
-gyro.startTracking((o) => {
+window.addEventListener("posicao", handleOrientation, true);
 
-    console.re.log("x - " + o.x);
-    console.re.log("y - " + o.y);
-    console.re.log("z - " + o.z);
-    console.re.log("alpha - " + o.alpha);
-    console.re.log("beta - " + o.beta);
-    console.re.log("gamma - " + o.gamma);
+function posicao(event) {
 
-});
+    console.re.log(event.absolute)
+    console.re.log(event.alpha)
+    console.re.log(event.beta)
+    console.re.log(event.gamma)
+
+}
