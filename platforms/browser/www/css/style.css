@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css?family=Karla');
+@import url('https://fonts.googleapis.com/css?family=Alegreya+Sans');
+@import url('https://fonts.googleapis.com/css?family=Roboto:300');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    color: white;
+    overflow: hidden;
+    background: url('../media/background.jpg');
+}
+
+#wrapper {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    height: 75vh;
+}
+
+#principal button {
+    border: none;
+    box-shadow: 0.5px 0.5px 2px 0.5px #030303;
+
+    background: #3498DB;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 4px;
+    color: #ffffff;
+    font-weight: 600;
+    text-transform: uppercase;
+    height: 3em;
+    width: 10em;
+}
+
+#principal button:hover {
+    transition: width 0.2s;
+    transition: height 0.2s;
+    width: 10.5em;
+    height: 3.5em;
+}
+
+#principal {
+    display: block;
+    background: rgba(255, 255, 255, 0.774);
+    font-family: 'Roboto', sans-serif;
+    position: absolute;
+    right: 0;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+
+#ajuda {
+    display: none;
+    font-family: 'Roboto', sans-serif;
+    background: rgba(0, 0, 0, 0.890);
+    position: absolute;
+    right: 0;
+    top: 0;
+    left: 0;
+    bottom: 0;
+
+}
+
+#ajuda h1 {
+    position: absolute;
+    left: 0.5em;
+    top: 0.3em;
+}
+
+#ajuda img {
+    width: 35px;
+    position: absolute;
+    right: 0.8em;
+    top: 0.8em;
+}
+
+#principal img {
+    width: 50px;
+    position: absolute;
+    right: 0.8em;
+    bottom: 0.8em;
+}
+
+#principal img:hover {
+    transition: width 0.2s;
+    width: 55px;
+}
+
+
+#principal header {
+    font-family: 'Alegreya Sans', sans-serif;
+    height: 25vh;
+    display: flex;
+    align-content: center;
+    background: rgba(255, 255, 255, 0.856);
+    align-items: center;
+    justify-content: center;
+}
+
+#principal header span {
+    font-size: 50px;
+}
+
+#principal header > span:nth-child(1) {
+    color: #C62828;
+}
+
+#principal header > span:nth-child(2) {
+    color: #AD1457;
+}
+
+#principal header > span:nth-child(3) {
+    color: #6A1B9A;
+}
+
+#principal header > span:nth-child(4) {
+    color: rgb(89, 54, 194);
+}
+
+#principal header > span:nth-child(5) {
+    color: #283593;
+}
+
+#principal header > span:nth-child(6) {
+    color: #1565C0;
+}
+
+#principal header > span:nth-child(7) {
+    color: #0277BD;
+}
+
+#jogo {
+    background: #009688;
+    display: none;
+    position: absolute;
+    right: 0;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+
+#jogo header {
+    height: 5vh;
+    font-size: 2.5em;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Karla', sans-serif;
+}
+
+#jogo #corpo {
+    font-size: 2em;
+    height: 95vh;
+    font-family: 'Karla', sans-serif;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+#jogo #tempo {
+    margin-top: 1em;
+}
+
+#perdeu {
+    display: none;
+    font-family: 'Roboto', sans-serif;
+    grid-template-columns: 1fr 1fr;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: #006064;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+
+#perdeu .esq {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+}
+
+#perdeu .dir {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+}
+
+#perdeu .dir #bola {
+    width: 5em;
+    height: 5em;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    border-radius: 150px;
+    box-shadow: 0.5px 0.5px 2px 0.5px #030303;
+    background: #00838F;
+    border: 15px solid #0097A7;
+}
+
+#perdeu .dir #bola h3 {
+    font-size: 2.5em;
+}
+
+#perdeu a {
+    text-decoration: none;
+    box-shadow: 0.1px 0.1px 2px 0.1px #030303;
+    color: inherit;
+    margin-top: 1em;
+    background: #00ACC1;
+    border-radius: 4px;
+    font-size: 16px;
+    padding: 8px;
+}

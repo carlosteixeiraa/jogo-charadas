@@ -1,0 +1,18 @@
+{
+  "background_color": "#FFF",
+  "display": "standalone",
+  "name": "Jogo Charadas",
+  "short_name": "Jogo Charadas",
+  "version": "xyz.carlosteixeira.jogocharadas",
+  "description": "Por escrever xD xD",
+  "author": "Carlos Teixeira",
+  "icons": [
+    {
+      "src": "www/img/logo.png",
+      "type": "image/png",
+      "sizes": "undefinedxundefined"
+    }
+  ],
+  "orientation": "portrait",
+  "start_url": "index.html"
+}

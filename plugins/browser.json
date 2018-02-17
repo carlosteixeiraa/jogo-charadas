@@ -1,0 +1,58 @@
+{
+  "prepare_queue": {
+    "installed": [],
+    "uninstalled": []
+  },
+  "config_munge": {
+    "files": {}
+  },
+  "installed_plugins": {
+    "cordova-plugin-battery-status": {
+      "PACKAGE_NAME": "xyz.carlosteixeira.charadas"
+    },
+    "cordova-plugin-camera": {
+      "PACKAGE_NAME": "xyz.carlosteixeira.charadas"
+    },
+    "cordova-plugin-media-capture": {
+      "PACKAGE_NAME": "xyz.carlosteixeira.charadas"
+    },
+    "cordova-plugin-device": {
+      "PACKAGE_NAME": "xyz.carlosteixeira.charadas"
+    },
+    "cordova-plugin-dialogs": {
+      "PACKAGE_NAME": "xyz.carlosteixeira.charadas"
+    },
+    "cordova-plugin-geolocation": {
+      "PACKAGE_NAME": "xyz.carlosteixeira.charadas"
+    },
+    "cordova-plugin-globalization": {
+      "PACKAGE_NAME": "xyz.carlosteixeira.charadas"
+    },
+    "cordova-plugin-inappbrowser": {
+      "PACKAGE_NAME": "xyz.carlosteixeira.charadas"
+    },
+    "cordova-plugin-network-information": {
+      "PACKAGE_NAME": "xyz.carlosteixeira.charadas"
+    },
+    "cordova-plugin-vibration": {
+      "PACKAGE_NAME": "xyz.carlosteixeira.charadas"
+    },
+    "cordova-plugin-whitelist": {
+      "PACKAGE_NAME": "xyz.carlosteixeira.jogocharadas"
+    },
+    "cordova-plugin-console": {
+      "PACKAGE_NAME": "xyz.carlosteixeira.jogocharadas"
+    },
+    "cordova-plugin-statusbar": {
+      "PACKAGE_NAME": "xyz.carlosteixeira.jogocharadas"
+    }
+  },
+  "dependent_plugins": {
+    "cordova-plugin-compat": {
+      "PACKAGE_NAME": "xyz.carlosteixeira.charadas"
+    },
+    "cordova-plugin-file": {
+      "PACKAGE_NAME": "xyz.carlosteixeira.charadas"
+    }
+  }
+}
