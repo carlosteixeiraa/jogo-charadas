@@ -102,6 +102,6 @@ gyro.startTracking((o) => {
     console.log("z - " + o.z);
     console.log("alpha - " + o.alpha);
     console.log("beta - " + o.beta);
-    console.log("gama - " + o.gama);
+    console.log("gamma - " + o.gamma);
 
 });
