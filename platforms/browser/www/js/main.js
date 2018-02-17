@@ -95,13 +95,7 @@ function contador() {
 } 
 
 // Movimentos ./para depois 
-gyro.startTracking((o) => {
-
-    console.log(o.x);
-    console.log(o.y);
-    console.log(o.z);
-    console.log(o.alpha);
-    console.log(o.beta);
-    console.log(o.gama);
-
-});
+var gyroscope = navigator.gyroscope;
+gyroscope.getCurrent
+gyroscope.watch
+gyroscope.clearWatch

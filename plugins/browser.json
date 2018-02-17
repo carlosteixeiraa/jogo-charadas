@@ -45,6 +45,9 @@
     },
     "cordova-plugin-statusbar": {
       "PACKAGE_NAME": "xyz.carlosteixeira.jogocharadas"
+    },
+    "cordova-plugin-gyroscope": {
+      "PACKAGE_NAME": "xyz.carlosteixeira.jogocharadas"
     }
   },
   "dependent_plugins": {

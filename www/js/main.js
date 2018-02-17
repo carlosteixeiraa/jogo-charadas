@@ -95,13 +95,7 @@ function contador() {
 } 
 
 // Movimentos ./para depois 
-window.addEventListener("handleOrientation", handleOrientation, true);
+var gyroscope = navigator.gyroscope;
 
-function handleOrientation(event) {
-
-    console.re.log(event.absolute)
-    console.re.log(event.alpha)
-    console.re.log(event.beta)
-    console.re.log(event.gamma)
-
-}
+console.log(gyroscope.getCurrent)
+console.log(gyroscope.watch)

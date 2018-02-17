@@ -17,6 +17,6 @@
     <allow-intent href="geo:*" />
     <icon src="www/img/logo.png" />
     <preference name="SplashScreenDelay" value="0" />
-    <preference name="orientation" value="portrait" />
+    <preference name="orientation" value="landscape" />
     <preference name="DisallowOverscroll" value="true" />
 </widget>

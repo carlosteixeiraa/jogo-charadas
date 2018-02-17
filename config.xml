@@ -20,10 +20,11 @@
         <allow-intent href="market:*" />
     </platform>
     <icon src="www/img/logo.png" />
-  	<preference name="SplashScreenDelay" value="0"/>
-  	<preference name="orientation" value="landscape" />
+    <preference name="SplashScreenDelay" value="0" />
+    <preference name="orientation" value="landscape" />
     <preference name="DisallowOverscroll" value="true" />
     <plugin name="cordova-plugin-whitelist" spec="~1.2.0" />
     <plugin name="cordova-plugin-console" spec="~1.0.1" />
     <plugin name="cordova-plugin-statusbar" spec="~1.0.1" />
+    <plugin name="cordova-plugin-gyroscope" spec="~0.1.4" />
 </widget>
