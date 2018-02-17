@@ -95,9 +95,9 @@ function contador() {
 } 
 
 // Movimentos ./para depois 
-window.addEventListener("posicao", handleOrientation, true);
+window.addEventListener("handleOrientation", handleOrientation, true);
 
-function posicao(event) {
+function handleOrientation(event) {
 
     console.re.log(event.absolute)
     console.re.log(event.alpha)
