@@ -95,7 +95,19 @@ function contador() {
 } 
 
 // Movimentos ./para depois 
-var gyroscope = navigator.gyroscope;
 
-console.log(gyroscope.getCurrent)
-console.log(gyroscope.watch)
+function sucesso(resposta) {
+    console.log(resposta.x)
+    console.log(resposta.y)
+    console.log(resposta.z)
+};
+
+function erro() {
+
+};
+
+var opts = { 
+    frequency: 5000 
+};
+
+var watcher = navigator.gyroscope.watchAngularSpeed(sucesso, erro, opts);
